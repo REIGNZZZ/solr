@@ -1,0 +1,11 @@
+21-Aug-2020 00:22:54.741 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+21-Aug-2020 00:22:54.791 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+21-Aug-2020 00:22:54.851 INFO [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+21-Aug-2020 00:22:54.901 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [solr] appears to have started a thread named [Thread-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.wltea.analyzer.lucene.UpdateThread.run(UpdateThread.java:84)
+ java.lang.Thread.run(Thread.java:745)
+21-Aug-2020 00:22:54.911 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+21-Aug-2020 00:22:54.911 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+21-Aug-2020 00:22:54.911 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+21-Aug-2020 00:22:54.911 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

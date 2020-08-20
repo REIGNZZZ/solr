@@ -1,0 +1,269 @@
+20-Aug-2020 22:18:52.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M10
+20-Aug-2020 22:18:52.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 31 2016 15:00:21 UTC
+20-Aug-2020 22:18:52.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+20-Aug-2020 22:18:52.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+20-Aug-2020 22:18:52.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+20-Aug-2020 22:18:52.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Aug-2020 22:18:52.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\JavaTools\Java\jdk1.8.0_101\jre
+20-Aug-2020 22:18:52.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_101-b13
+20-Aug-2020 22:18:52.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Aug-2020 22:18:52.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\JavaTools\apache-tomcat-9.0.0.M10
+20-Aug-2020 22:18:52.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\JavaTools\apache-tomcat-9.0.0.M10
+20-Aug-2020 22:18:52.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Aug-2020 22:18:52.076 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\JavaTools\apache-tomcat-9.0.0.M10\conf\logging.properties
+20-Aug-2020 22:18:52.077 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Aug-2020 22:18:52.078 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\JavaTools\apache-tomcat-9.0.0.M10
+20-Aug-2020 22:18:52.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\JavaTools\apache-tomcat-9.0.0.M10
+20-Aug-2020 22:18:52.080 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\JavaTools\apache-tomcat-9.0.0.M10\temp
+20-Aug-2020 22:18:52.081 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\JavaTools\Java\jdk1.8.0_101\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\JavaTools\Java\jdk1.8.0_101\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;;C:\JavaTools\Microsoft VS Code\bin;.
+20-Aug-2020 22:18:52.177 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Aug-2020 22:18:52.252 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Aug-2020 22:18:52.256 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Aug-2020 22:18:52.258 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Aug-2020 22:18:52.259 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 479 ms
+20-Aug-2020 22:18:52.278 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+20-Aug-2020 22:18:52.279 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M10
+20-Aug-2020 22:18:52.286 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\JavaTools\apache-tomcat-9.0.0.M10\webapps\solr
+20-Aug-2020 22:18:55.863 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Aug-2020 22:18:58.288 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaTools\apache-tomcat-9.0.0.M10\webapps\solr has finished in 6,002 ms
+20-Aug-2020 22:18:58.292 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+20-Aug-2020 22:18:58.297 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+20-Aug-2020 22:18:58.299 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 6039 ms
+20-Aug-2020 22:25:17.926 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Aug-2020 22:25:17.986 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+20-Aug-2020 22:25:18.038 INFO [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+20-Aug-2020 22:25:18.131 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Aug-2020 22:25:18.136 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+20-Aug-2020 22:25:18.138 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Aug-2020 22:25:18.139 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+20-Aug-2020 22:25:42.383 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M10
+20-Aug-2020 22:25:42.384 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 31 2016 15:00:21 UTC
+20-Aug-2020 22:25:42.384 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+20-Aug-2020 22:25:42.385 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+20-Aug-2020 22:25:42.385 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+20-Aug-2020 22:25:42.385 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Aug-2020 22:25:42.385 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\JavaTools\Java\jdk1.8.0_101\jre
+20-Aug-2020 22:25:42.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_101-b13
+20-Aug-2020 22:25:42.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Aug-2020 22:25:42.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\JavaTools\apache-tomcat-9.0.0.M10
+20-Aug-2020 22:25:42.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\JavaTools\apache-tomcat-9.0.0.M10
+20-Aug-2020 22:25:42.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Aug-2020 22:25:42.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\JavaTools\apache-tomcat-9.0.0.M10\conf\logging.properties
+20-Aug-2020 22:25:42.390 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Aug-2020 22:25:42.391 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\JavaTools\apache-tomcat-9.0.0.M10
+20-Aug-2020 22:25:42.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\JavaTools\apache-tomcat-9.0.0.M10
+20-Aug-2020 22:25:42.393 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\JavaTools\apache-tomcat-9.0.0.M10\temp
+20-Aug-2020 22:25:42.394 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\JavaTools\Java\jdk1.8.0_101\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\JavaTools\Java\jdk1.8.0_101\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;;C:\JavaTools\Microsoft VS Code\bin;.
+20-Aug-2020 22:25:42.480 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Aug-2020 22:25:42.569 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Aug-2020 22:25:42.572 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Aug-2020 22:25:42.575 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Aug-2020 22:25:42.576 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 387 ms
+20-Aug-2020 22:25:42.595 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+20-Aug-2020 22:25:42.596 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M10
+20-Aug-2020 22:25:42.602 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\JavaTools\apache-tomcat-9.0.0.M10\webapps\solr
+20-Aug-2020 22:25:45.020 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Aug-2020 22:25:47.537 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaTools\apache-tomcat-9.0.0.M10\webapps\solr has finished in 4,935 ms
+20-Aug-2020 22:25:47.549 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+20-Aug-2020 22:25:47.554 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+20-Aug-2020 22:25:47.563 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4986 ms
+20-Aug-2020 23:39:53.497 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Aug-2020 23:39:53.567 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+20-Aug-2020 23:39:53.617 INFO [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+20-Aug-2020 23:39:53.737 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [solr] appears to have started a thread named [Thread-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.wltea.analyzer.lucene.UpdateThread.run(UpdateThread.java:84)
+ java.lang.Thread.run(Thread.java:745)
+20-Aug-2020 23:39:53.757 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Aug-2020 23:39:53.757 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+20-Aug-2020 23:39:53.767 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Aug-2020 23:39:53.767 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+20-Aug-2020 23:40:01.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M10
+20-Aug-2020 23:40:01.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 31 2016 15:00:21 UTC
+20-Aug-2020 23:40:01.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+20-Aug-2020 23:40:01.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+20-Aug-2020 23:40:01.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+20-Aug-2020 23:40:01.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Aug-2020 23:40:01.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\JavaTools\Java\jdk1.8.0_101\jre
+20-Aug-2020 23:40:01.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_101-b13
+20-Aug-2020 23:40:01.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Aug-2020 23:40:01.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\JavaTools\apache-tomcat-9.0.0.M10
+20-Aug-2020 23:40:01.173 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\JavaTools\apache-tomcat-9.0.0.M10
+20-Aug-2020 23:40:01.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Aug-2020 23:40:01.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsolr.log.dir=C:\JavaTools\solrhome\logs
+20-Aug-2020 23:40:01.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\JavaTools\apache-tomcat-9.0.0.M10\conf\logging.properties
+20-Aug-2020 23:40:01.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Aug-2020 23:40:01.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\JavaTools\apache-tomcat-9.0.0.M10
+20-Aug-2020 23:40:01.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\JavaTools\apache-tomcat-9.0.0.M10
+20-Aug-2020 23:40:01.183 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\JavaTools\apache-tomcat-9.0.0.M10\temp
+20-Aug-2020 23:40:01.193 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\JavaTools\Java\jdk1.8.0_101\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\JavaTools\Java\jdk1.8.0_101\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;;C:\JavaTools\Microsoft VS Code\bin;.
+20-Aug-2020 23:40:01.263 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Aug-2020 23:40:01.333 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Aug-2020 23:40:01.333 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Aug-2020 23:40:01.333 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Aug-2020 23:40:01.343 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 405 ms
+20-Aug-2020 23:40:01.353 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+20-Aug-2020 23:40:01.353 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M10
+20-Aug-2020 23:40:01.363 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\JavaTools\apache-tomcat-9.0.0.M10\webapps\solr
+20-Aug-2020 23:40:03.883 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Aug-2020 23:40:06.266 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaTools\apache-tomcat-9.0.0.M10\webapps\solr has finished in 4,903 ms
+20-Aug-2020 23:40:06.266 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+20-Aug-2020 23:40:06.276 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+20-Aug-2020 23:40:06.286 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4942 ms
+20-Aug-2020 23:40:16.268 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.webresources.Cache.backgroundProcess The background cache eviction process was unable to free [10] percent of the cache for Context [/solr] - consider increasing the maximum size of the cache. After eviction approximately [9,350] KB of data remained in the cache.
+20-Aug-2020 23:40:26.278 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.webresources.Cache.backgroundProcess The background cache eviction process was unable to free [10] percent of the cache for Context [/solr] - consider increasing the maximum size of the cache. After eviction approximately [9,274] KB of data remained in the cache.
+20-Aug-2020 23:42:34.577 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Aug-2020 23:42:34.627 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+20-Aug-2020 23:42:34.677 INFO [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+20-Aug-2020 23:42:34.737 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [solr] appears to have started a thread named [Thread-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.wltea.analyzer.lucene.UpdateThread.run(UpdateThread.java:84)
+ java.lang.Thread.run(Thread.java:745)
+20-Aug-2020 23:42:34.747 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Aug-2020 23:42:34.747 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+20-Aug-2020 23:42:34.747 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Aug-2020 23:42:34.747 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+20-Aug-2020 23:43:08.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M10
+20-Aug-2020 23:43:08.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 31 2016 15:00:21 UTC
+20-Aug-2020 23:43:08.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+20-Aug-2020 23:43:08.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+20-Aug-2020 23:43:08.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+20-Aug-2020 23:43:08.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Aug-2020 23:43:08.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\JavaTools\Java\jdk1.8.0_101\jre
+20-Aug-2020 23:43:08.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_101-b13
+20-Aug-2020 23:43:08.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Aug-2020 23:43:08.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\JavaTools\apache-tomcat-9.0.0.M10
+20-Aug-2020 23:43:08.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\JavaTools\apache-tomcat-9.0.0.M10
+20-Aug-2020 23:43:08.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Aug-2020 23:43:08.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsolr.log.dir=C:\JavaTools\solrhome\logs
+20-Aug-2020 23:43:08.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\JavaTools\apache-tomcat-9.0.0.M10\conf\logging.properties
+20-Aug-2020 23:43:08.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Aug-2020 23:43:08.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\JavaTools\apache-tomcat-9.0.0.M10
+20-Aug-2020 23:43:08.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\JavaTools\apache-tomcat-9.0.0.M10
+20-Aug-2020 23:43:08.513 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\JavaTools\apache-tomcat-9.0.0.M10\temp
+20-Aug-2020 23:43:08.513 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\JavaTools\Java\jdk1.8.0_101\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\JavaTools\Java\jdk1.8.0_101\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;;C:\JavaTools\Microsoft VS Code\bin;.
+20-Aug-2020 23:43:08.583 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Aug-2020 23:43:08.653 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Aug-2020 23:43:08.653 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Aug-2020 23:43:08.653 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Aug-2020 23:43:08.653 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 347 ms
+20-Aug-2020 23:43:08.673 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+20-Aug-2020 23:43:08.673 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M10
+20-Aug-2020 23:43:08.683 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\JavaTools\apache-tomcat-9.0.0.M10\webapps\solr
+20-Aug-2020 23:43:11.293 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Aug-2020 23:43:13.535 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaTools\apache-tomcat-9.0.0.M10\webapps\solr has finished in 4,852 ms
+20-Aug-2020 23:43:13.545 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+20-Aug-2020 23:43:13.545 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+20-Aug-2020 23:43:13.545 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4893 ms
+20-Aug-2020 23:43:23.547 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.webresources.Cache.backgroundProcess The background cache eviction process was unable to free [10] percent of the cache for Context [/solr] - consider increasing the maximum size of the cache. After eviction approximately [9,395] KB of data remained in the cache.
+20-Aug-2020 23:43:33.557 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.webresources.Cache.backgroundProcess The background cache eviction process was unable to free [10] percent of the cache for Context [/solr] - consider increasing the maximum size of the cache. After eviction approximately [9,374] KB of data remained in the cache.
+20-Aug-2020 23:43:42.211 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+20-Aug-2020 23:43:42.261 INFO [Thread-6] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+20-Aug-2020 23:43:42.311 INFO [Thread-6] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+20-Aug-2020 23:43:42.361 WARNING [localhost-startStop-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [solr] appears to have started a thread named [Thread-7] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.lang.Thread.sleep(Native Method)
+ org.wltea.analyzer.lucene.UpdateThread.run(UpdateThread.java:84)
+ java.lang.Thread.run(Thread.java:745)
+20-Aug-2020 23:43:42.361 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+20-Aug-2020 23:43:42.371 INFO [Thread-6] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+20-Aug-2020 23:43:42.371 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+20-Aug-2020 23:43:42.371 INFO [Thread-6] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+20-Aug-2020 23:43:57.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M10
+20-Aug-2020 23:43:57.049 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 31 2016 15:00:21 UTC
+20-Aug-2020 23:43:57.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+20-Aug-2020 23:43:57.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+20-Aug-2020 23:43:57.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+20-Aug-2020 23:43:57.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Aug-2020 23:43:57.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\JavaTools\Java\jdk1.8.0_101\jre
+20-Aug-2020 23:43:57.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_101-b13
+20-Aug-2020 23:43:57.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Aug-2020 23:43:57.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\JavaTools\apache-tomcat-9.0.0.M10
+20-Aug-2020 23:43:57.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\JavaTools\apache-tomcat-9.0.0.M10
+20-Aug-2020 23:43:57.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Aug-2020 23:43:57.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsolr.log.dir=C:\JavaTools\solrhome\logs
+20-Aug-2020 23:43:57.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\JavaTools\apache-tomcat-9.0.0.M10\conf\logging.properties
+20-Aug-2020 23:43:57.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Aug-2020 23:43:57.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\JavaTools\apache-tomcat-9.0.0.M10
+20-Aug-2020 23:43:57.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\JavaTools\apache-tomcat-9.0.0.M10
+20-Aug-2020 23:43:57.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\JavaTools\apache-tomcat-9.0.0.M10\temp
+20-Aug-2020 23:43:57.069 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\JavaTools\Java\jdk1.8.0_101\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\JavaTools\Java\jdk1.8.0_101\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;;C:\JavaTools\Microsoft VS Code\bin;.
+20-Aug-2020 23:43:57.139 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Aug-2020 23:43:57.209 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Aug-2020 23:43:57.219 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Aug-2020 23:43:57.219 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Aug-2020 23:43:57.219 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 375 ms
+20-Aug-2020 23:43:57.229 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+20-Aug-2020 23:43:57.229 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M10
+20-Aug-2020 23:43:57.239 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\JavaTools\apache-tomcat-9.0.0.M10\webapps\solr
+20-Aug-2020 23:43:59.681 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Aug-2020 23:44:01.933 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaTools\apache-tomcat-9.0.0.M10\webapps\solr has finished in 4,694 ms
+20-Aug-2020 23:44:01.933 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+20-Aug-2020 23:44:01.933 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+20-Aug-2020 23:44:01.943 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4723 ms
+20-Aug-2020 23:44:11.941 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.webresources.Cache.backgroundProcess The background cache eviction process was unable to free [10] percent of the cache for Context [/solr] - consider increasing the maximum size of the cache. After eviction approximately [9,373] KB of data remained in the cache.
+20-Aug-2020 23:44:21.951 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.webresources.Cache.backgroundProcess The background cache eviction process was unable to free [10] percent of the cache for Context [/solr] - consider increasing the maximum size of the cache. After eviction approximately [9,330] KB of data remained in the cache.
+20-Aug-2020 23:47:41.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M10
+20-Aug-2020 23:47:41.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 31 2016 15:00:21 UTC
+20-Aug-2020 23:47:41.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+20-Aug-2020 23:47:41.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+20-Aug-2020 23:47:41.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+20-Aug-2020 23:47:41.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Aug-2020 23:47:41.362 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\JavaTools\Java\jdk1.8.0_101\jre
+20-Aug-2020 23:47:41.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_101-b13
+20-Aug-2020 23:47:41.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Aug-2020 23:47:41.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\JavaTools\apache-tomcat-9.0.0.M10
+20-Aug-2020 23:47:41.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\JavaTools\apache-tomcat-9.0.0.M10
+20-Aug-2020 23:47:41.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Aug-2020 23:47:41.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsolr.log.dir=C:\JavaTools\solrhome\logs
+20-Aug-2020 23:47:41.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\JavaTools\apache-tomcat-9.0.0.M10\conf\logging.properties
+20-Aug-2020 23:47:41.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Aug-2020 23:47:41.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\JavaTools\apache-tomcat-9.0.0.M10
+20-Aug-2020 23:47:41.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\JavaTools\apache-tomcat-9.0.0.M10
+20-Aug-2020 23:47:41.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\JavaTools\apache-tomcat-9.0.0.M10\temp
+20-Aug-2020 23:47:41.372 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\JavaTools\Java\jdk1.8.0_101\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\JavaTools\Java\jdk1.8.0_101\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;;C:\JavaTools\Microsoft VS Code\bin;.
+20-Aug-2020 23:47:41.442 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Aug-2020 23:47:41.512 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Aug-2020 23:47:41.522 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Aug-2020 23:47:41.522 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Aug-2020 23:47:41.522 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 362 ms
+20-Aug-2020 23:47:41.532 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+20-Aug-2020 23:47:41.532 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M10
+20-Aug-2020 23:47:41.542 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\JavaTools\apache-tomcat-9.0.0.M10\webapps\solr
+20-Aug-2020 23:47:43.832 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Aug-2020 23:47:45.914 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaTools\apache-tomcat-9.0.0.M10\webapps\solr has finished in 4,372 ms
+20-Aug-2020 23:47:45.914 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+20-Aug-2020 23:47:45.924 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+20-Aug-2020 23:47:45.924 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4401 ms
+20-Aug-2020 23:47:55.916 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.webresources.Cache.backgroundProcess The background cache eviction process was unable to free [10] percent of the cache for Context [/solr] - consider increasing the maximum size of the cache. After eviction approximately [9,339] KB of data remained in the cache.
+20-Aug-2020 23:50:31.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M10
+20-Aug-2020 23:50:31.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 31 2016 15:00:21 UTC
+20-Aug-2020 23:50:31.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+20-Aug-2020 23:50:31.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+20-Aug-2020 23:50:31.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+20-Aug-2020 23:50:31.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+20-Aug-2020 23:50:31.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\JavaTools\Java\jdk1.8.0_101\jre
+20-Aug-2020 23:50:31.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_101-b13
+20-Aug-2020 23:50:31.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+20-Aug-2020 23:50:31.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\JavaTools\apache-tomcat-9.0.0.M10
+20-Aug-2020 23:50:31.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\JavaTools\apache-tomcat-9.0.0.M10
+20-Aug-2020 23:50:31.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+20-Aug-2020 23:50:31.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsolr.log.dir=C:\JavaTools\solrhome\logs
+20-Aug-2020 23:50:31.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\JavaTools\apache-tomcat-9.0.0.M10\conf\logging.properties
+20-Aug-2020 23:50:31.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+20-Aug-2020 23:50:31.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\JavaTools\apache-tomcat-9.0.0.M10
+20-Aug-2020 23:50:31.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\JavaTools\apache-tomcat-9.0.0.M10
+20-Aug-2020 23:50:31.708 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\JavaTools\apache-tomcat-9.0.0.M10\temp
+20-Aug-2020 23:50:31.708 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\JavaTools\Java\jdk1.8.0_101\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\JavaTools\Java\jdk1.8.0_101\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;;C:\JavaTools\Microsoft VS Code\bin;.
+20-Aug-2020 23:50:31.778 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+20-Aug-2020 23:50:31.848 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Aug-2020 23:50:31.848 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+20-Aug-2020 23:50:31.858 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+20-Aug-2020 23:50:31.858 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 396 ms
+20-Aug-2020 23:50:31.868 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+20-Aug-2020 23:50:31.868 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M10
+20-Aug-2020 23:50:31.878 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory C:\JavaTools\apache-tomcat-9.0.0.M10\webapps\solr
+20-Aug-2020 23:50:34.262 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+20-Aug-2020 23:50:36.714 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory C:\JavaTools\apache-tomcat-9.0.0.M10\webapps\solr has finished in 4,836 ms
+20-Aug-2020 23:50:36.714 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+20-Aug-2020 23:50:36.724 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+20-Aug-2020 23:50:36.724 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4868 ms
